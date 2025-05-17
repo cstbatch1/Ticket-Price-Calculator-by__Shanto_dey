@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+a{
+  text-decoration: none;
+  display: inline-block;
+}
+ul{
+  list-style: none;
+   
+}
+
+img{
+  vertical-align: middle;
+}
+body {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/img/beckett-zapp-OGDfz9DUCu0-unsplash.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed; 
+  height: 100dvh;
+  margin: 0;
+  backdrop-filter: blur(5px); 
+}
+.fullscreen-center {
+  height: 100vh;          
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+html {
+  height: 100%;
+}
+.form-control::placeholder {
+  color: white !important;
+  opacity: 1;
+}
+.form-control{
+  color: white;
+}
+.form-control:focus {
+  color: white;
+  background-color: transparent;
+  border-color: #86b7fe;
+  outline: 0;
+  box-shadow: 0 0 0 .25rem rgba(13, 110, 253, .25);
+}
+  .border_box {
+  background: transparent !important;
+  color: rgba(255, 255, 255, 0.815) !important;
+  backdrop-filter: blur(10px); 
+  border: 1px solid white;
+  border-radius: 15px;
+  padding: 20px;
+
+  }
+.form-control{
+  background-color: transparent;
+}
